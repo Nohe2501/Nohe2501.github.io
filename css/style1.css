@@ -1,0 +1,19 @@
+ul li{
+	display: inline-block;
+	margin: 5px;
+}
+
+#hd{
+
+	width: 30px;
+	height: 30px;
+	text-align: center;
+}
+
+
+.log{
+	height: 150px;
+	width: 150px;
+	margin-left: 49%;
+	margin-right: 49%;
+}
