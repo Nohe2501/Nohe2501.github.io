@@ -8,14 +8,20 @@ ul{
 	padding: 0px;
 }
 
-ul li{
+.iconos li{
 	display: inline-block;
 	margin: 2px;
 }
 
-ul li img{
+.iconos li img{
 	width: 30px;
 	height: 30px;
+}
+
+.log {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .log img{
@@ -24,36 +30,37 @@ ul li img{
 	margin-top: 15px;
 }
 
-.log {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 180px;
-    width: 180px;
-	margin-top: 15px;
-}    
-
-
+h5{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 0%;
+}
 nav{
 	display:flex;
 	align-items: center;
 	justify-content: center;
 }
 
-h5{
-	text-align: center;
-	margin-top: 2%;
-	margin-bottom: 0%;
-}
 p{
 	text-align: center;
 	margin: 20px;
 }
 
-.boton {
+.yumi{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.yumi ul{
+	list-style-type: none;
+	margin: 5px;
+}
+.yumi ul li{
+margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+.boton {
 	width: 130px;
 	height: 20px;
 	background: #0097a7;
@@ -62,12 +69,11 @@ p{
 	color: black;
 	border: solid 1px white;
 	box-shadow: 3px 3px 0px white;
-	margin: 5px;
 }
 
 .boton:hover {
 	color: #e0f7fa;
 }
 p{
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 }
