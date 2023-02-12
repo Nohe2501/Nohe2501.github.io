@@ -22,12 +22,18 @@ ul{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	margin-top: 15px;
+}
+
+.sombra {
+	box-shadow: 3px 3px 0px white;
+	border-radius: 50%;
+	width: auto;
 }
 
 .log img{
     height: 180px;
     width: 180px;
-	margin-top: 15px;
 }
 
 h5{
